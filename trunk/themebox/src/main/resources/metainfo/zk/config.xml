@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<config-name>themebox</config-name>
+	
+	<!--
+	<listener>
+		<listener-class>org.zkoss.module.themebox.impl.ThemeboxWebAppInit</listener-class>
+	</listener>
+	-->
+	
+</config>

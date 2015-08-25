@@ -1,0 +1,34 @@
+#summary Reviewer guide
+
+= Introduction =
+
+Reviewer is a module that provides an easy way to show the ZUL source code on your ZUL page.
+
+This module is useful mostly when you need to review ZUL files with your partners at development stage. We usually don't use this module in a public accessible web application.
+
+
+= Setup =
+
+ # Download reviewer.jar from [http://code.google.com/p/zk-module/downloads/list here].
+ # In your web.xml, add the following lines (to allow Richlets):
+
+{{{
+<!-- Module Richlet -->
+<servlet-mapping>
+	<servlet-name>zkLoader</servlet-name>
+	<url-pattern>/mod/*</url-pattern>
+</servlet-mapping>
+}}}
+
+
+= Usage =
+
+Suppose you have the following ZUL page:
+{{{
+http://localhost:8080/myapp/test/test-01.zul
+}}}
+Add a segement {{{mod/review}}} after context path,
+{{{
+http://localhost:8080/myapp/mod/review/test/test-01.zul
+}}}
+then you can view and download the ZUL source in that page.

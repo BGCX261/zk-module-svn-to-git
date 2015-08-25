@@ -1,0 +1,12 @@
+<language-addon>
+	<addon-name>themebox</addon-name>
+	<language-name>xul/html</language-name>
+	
+	<!--  Macro Component -->
+	<component>
+		<component-name>themebox</component-name>
+		<macro-uri>~./mod/themebox/view/option.zul</macro-uri>
+		<component-class>org.zkoss.zk.ui.HtmlMacroComponent</component-class>
+		<inline>false</inline>
+	</component>
+</language-addon>

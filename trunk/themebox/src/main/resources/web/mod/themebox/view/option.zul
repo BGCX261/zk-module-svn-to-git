@@ -1,0 +1,6 @@
+<zk>
+	<div sclass="themebox-option-wrapper">
+		<listbox id="themelistbox" rows="1" mold="select" sclass="themebox-option"
+			apply="org.zkoss.module.themebox.OptionThemeController" />
+	</div>
+</zk>

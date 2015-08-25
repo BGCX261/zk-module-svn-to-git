@@ -1,0 +1,18 @@
+#summary Themebox guide
+
+= Introduction =
+
+This is a very simple ZK module, which consists of a single component that allows user to select available themes.
+
+
+= Setup =
+
+ # Download and install some standard themes from [http://code.google.com/p/zkthemes/downloads/list ZK Themes Project].
+ # Download themebox.jar from [http://code.google.com/p/zk-module/downloads/list here] and add it to your {{{WEB-INF/lib}}} directory. 
+
+
+= Usage =
+
+Use Themebox as {{{<themebox />}}} in your ZUL file as a component, which is implemented as a HTML select element (or say, ZK listbox in select mold), with options of all available standard themes. 
+
+Upon selection, the page with be refreshed and switched to the selected theme.

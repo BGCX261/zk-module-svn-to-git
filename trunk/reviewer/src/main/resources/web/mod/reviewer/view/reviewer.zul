@@ -1,0 +1,35 @@
+<zk>
+	<style>
+		.code {
+			font-family: consolas, monospace
+		}
+		.control-container {
+			padding: 10px;
+		}
+		.code-container {
+			padding: 0 10px 10px 10px;
+		}
+		.panel {
+			margin-top: 5px;
+			background-color: rgba(0, 45, 64, 0.15);
+		}
+		textarea.srcbox {
+			background-color: #E6EEEC;
+		}
+	</style>
+	<window apply="org.zkoss.module.reviewer.ReviewerController">
+		<div class="panel">
+			<div class="control-container">
+				<button id="showBtn" label="Show Source" width="100px" />
+				<button id="downloadBtn" label="Download" width="100px" />
+			</div>
+			<div id="srcDiv" class="code-container" visible="false"
+				action="show: slideDown; hide: slideUp">
+				<textbox id="srcBox" class="code srcbox" width="100%" hflex="1"
+					multiline="true" rows="50" readonly="true" />
+			</div>
+		</div>
+		<html><![CDATA[<hr />]]></html>
+		<include id="inc" src="${arg.src}" />
+	</window>
+</zk>

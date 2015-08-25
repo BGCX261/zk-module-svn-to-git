@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<config-name>reviewer</config-name>
+	
+	<listener>
+		<listener-class>org.zkoss.module.reviewer.ReviewerWebAppInit</listener-class>
+	</listener>
+	
+</config>
